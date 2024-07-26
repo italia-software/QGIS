@@ -2,7 +2,7 @@
 # metadata file that makes public software easily discoverable.
 # More info at https://github.com/italia/publiccode.yml
 
-publiccodeYmlVersion: '0.3'
+publiccodeYmlVersion: '0.4'
 categories:
   - geographic-information-systems
 description:
@@ -45,8 +45,6 @@ description:
       License](https://docs.qgis.org/3.22/it/docs/user_manual/appendices/GNU_GPL.html#gpl-appendix).
     shortDescription: QGIS è un Sistema Informativo Geografico Open Source
 developmentStatus: stable
-inputTypes:
-  - application/vnd.geo+json
 it:
   conforme:
     gdpr: false
@@ -72,9 +70,7 @@ maintenance:
     - name: QGIS community
   type: community
 name: QGIS
-logo: https://qgis.org/en/_downloads/346c98156457acb14251dbfd0b88a027/qgis-logo.svg
-outputTypes:
-  - application/vnd.geo+json
+logo: "https://raw.githubusercontent.com/italia-software/QGIS/main/qgis-logo.svg"
 platforms:
   - windows
   - mac
